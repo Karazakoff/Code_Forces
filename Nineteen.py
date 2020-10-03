@@ -6,13 +6,13 @@ t = 0
 e = 0
 for number in word:
   if number == 'n':
-    n+=1
+    n = n + 1
   if number == 'i':
-    i+=1
+    i = i + 1
   if number == 't':
-    t+=1
+    t = t + 1
   if number == 'e':
-    e+=1
+    e = e + 1
 e = e // 3
 sum = 0
 if n >= 5:
